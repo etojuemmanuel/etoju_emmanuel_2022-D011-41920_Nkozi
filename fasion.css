@@ -133,7 +133,7 @@ textarea::placeholder {
   border: #fff 2;
 }
 .comment-text{
-  width: 40pc;
+  width: 25pc;
   margin: 2px;
   border: #b81414 2;
   color: black;
@@ -182,8 +182,10 @@ textarea::placeholder {
 }
 .tweet-card{
   width: 40pc;
-  background-color: #3d3535;
+  border: 2 black;
+  /* background-color: #3d3535; */
   color: white;
+  background-color: #f0eaea;  
 
 }.card-header{
   color: white;
@@ -196,4 +198,27 @@ textarea::placeholder {
     -webkit-background-clip: text; /* Apply text as a mask for the gradient (for older versions of WebKit) */
     background-clip: text;
   }
-
+  h3{
+    color: white;
+    font-weight: 800;
+  }
+.form-floating{
+  width: 30pc;
+  padding-left: 10px;
+  
+}
+.comment{  
+  width: 37pc;
+  border-radius: 16px;
+  margin-bottom: 20px;
+  background-color: #f0eaea;  
+}
+.card{
+  background-color: #beb4b4;
+}
+.ordlist{
+  padding-bottom: 20px;
+}
+.container{
+padding-bottom: 20px;
+}
